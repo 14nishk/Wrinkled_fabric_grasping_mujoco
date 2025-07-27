@@ -6,7 +6,7 @@ A deep reinforcement learning implementation for robotic fabric manipulation usi
 
 This project implements a dual-arm robotic fabric manipulation system using deep reinforcement learning with RGBD (RGB + Depth) sensing. The system uses MuJoCo for physics simulation and PyTorch for deep learning.
 
-![System Overview](docs/images/system_overview.png)
+![System Overview](docs/system_overview.png)
 
 ## Features
 
@@ -98,8 +98,10 @@ The training process involves several stages:
 ## Results
 
 Sample training results showing learning progress:
+![Result 1](docs/hanging_c.png)
+![Result 2](docs/lower_grasp.png)
 
-![Training Results](resnet/)
+![Training Results](resnet_training_results/learning_curve.png)
 
 ## Visualization
 
